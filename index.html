@@ -3,38 +3,71 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About Me | P.Y. Cruz</title>
-    <meta name="description" content="Academic background, research interests, and general interests of Pablo De La Cruz (UC Berkeley).">
-    <meta name="robots" content="index, follow">
-    <link rel="canonical" href="https://pycruz.com/about.html">
 
-    <meta property="og:title" content="About Me | P.Y. Cruz">
-    <meta property="og:description" content="Academic background, research interests, and general interests of Pablo De La Cruz (UC Berkeley).">
-    <meta property="og:url" content="https://pycruz.com/about.html">
+    <title>Personal Website | P.Y. Cruz</title>
+    <meta name="description" content="P.Y. Cruz' personal website; a collection of academic mathematics work and
+    meditations on philosophy, psychology, and theology.">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://pycruz.com/">
+
+    <meta property="og:title" content="Personal Website | P.Y. Cruz">
+    <meta property="og:description" content="P.Y. Cruz' personal website; a collection of academic mathematics work and
+    meditations on philosophy, psychology, and theology.">
+    <meta property="og:url" content="https://pycruz.com/">
     <meta property="og:type" content="website">
     <meta property="og:image" content="https://www.pycruz.com/favicon.png">
 
-    <link rel="stylesheet" href="css/style.css">
-
     <link rel="icon" type="image/svg+xml" href="images/favicon.svg">
     <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 
-    <header>
-        <h1>About Me</h1>
-        <p class="subtitle">Hello! I'm Pablo De La Cruz.</p>
-    </header>
-
     <main>
+        <header>
+            <h1>P.Y. Cruz</h1>
+
+            <div class="photos">
+                <img src="images/pycruz.jpeg" alt="Pablo De La Cruz" decoding="async" loading="eager">
+            </div>
+        </header>
+
         <section aria-label="Introduction">
-            <p>I have a somewhat unique birthday: 06-05-04, or June 5th, 2004. I am currently in the process
-            of applying to graduate school.</p>
+            <p class="intro-text">
+                Hello, welcome to my website! This webpage is a collection of my work, ideas, and things I want to share with
+                the world; a pseudo-blog, if you will. Here, you’ll find some of my academic mathematics work, essays, and
+                random thoughts.
+            </p>
         </section>
 
-        <section aria-label="Academic Background">
-            <h2>Academic Background</h2>
-            <p>I am a UC Berkeley graduate with a Bachelors in Applied Mathematics concentrating
+        <nav class="main-nav" aria-label="Main Directory">
+            <ul>
+                <li><a href="about.html">About Me</a></li>
+                <!-- <li><a href="cv.pdf" target="_blank" rel="noopener">Curriculum Vitae</a></li> -->
+                <li><a href="publications.html">Publications and Course Notes</a></li>
+                <li><a href="books.html">Reading List and Meditations</a></li>
+                <!-- <li><a href="random_thoughts.html">Interesting and Random Thoughts</a></li> -->
+                <li><a href="religion.html">Writings on Religion</a></li>
+                <li><a href="mailto:pa-blo@berkeley.edu">Contact Me</a></li>
+            </ul>
+        </nav>
+    </main>
+
+ <footer class="site-footer">
+        <hr class="footer-divider">
+        <p id="last-updated" class="footnote">Last updated: August 2026</p>
+    </footer>
+
+    <script>
+        var lastModifiedDate = new Date(document.lastModified);
+        var options = { year: 'numeric', month: 'long', day: 'numeric' };
+        var formattedDate = lastModifiedDate.toLocaleDateString('en-US', options);
+        document.getElementById("last-updated").textContent = "Last updated: " + formattedDate;
+    </script>
+
+</body>
+</html>            <p>I am a UC Berkeley graduate with a Bachelors in Applied Mathematics concentrating
                 in number theory. I graduated with honors in August 2026, having completed my <a href="https://pycruz.com/On_The_Arithmetic_Nature_Of_The_Zeta_Function_And_Its_Generalizations.pdf" target="_blank" rel="noopener">senior honors thesis</a> on the arithmetic of the
                 Riemann zeta function under the supervision of Professor
                 <a href="https://en.wikipedia.org/wiki/Yunqing_Tang" target="_blank" rel="noopener">Yunqing Tang</a>. Prior to attending UC

@@ -12,8 +12,8 @@
     <meta property="og:description" content="A compendium of essays and notes by Pablo De La Cruz on cognitive science, philosophy, free will, and the physical world.">
     <meta property="og:url" content="https://pycruz.com/random_thoughts.html">
     <meta property="og:type" content="website">
-    <meta property="og:image" content="https://www.pycruz.com/favicon.png">
-    
+    <meta property="og:image" content="https://pycruz.com/favicon.png">
+
     <link rel="stylesheet" href="css/style.css">
 
     <link rel="icon" type="image/svg+xml" href="images/favicon.svg">
@@ -35,23 +35,62 @@
 
         <section aria-label="Mind and Brain">
             <h2>Mind and Brain</h2>
-            <p class="footnote">Essays and notes on psychology, cognitive mechanics, and neuroscience coming soon.</p>
+            <ul class="interests-list">
+                <li>
+                    What is intelligence? Where does intelligence come from; is it genetic, and if so how much is intelligence passed down to future generations?
+                </li>
+                <li>
+                    What is serotonin, dopamine, epinephrine, and norepinephrine? Where are they produced? What roles do they play within the brain and human functionality?
+                </li>
+                <li>
+                    What precisely is consciousness or self awareness? Do any other animals possess this? If any do, which, and to what extent?
+                </li>
+            </ul>
             </section>
 
         <section aria-label="The Big Questions">
             <h2>The Big Questions</h2>
-            <p class="footnote">Reflections on philosophy, theology, and the mechanics of free will coming soon.</p>
+            <ul class="interests-list">
+                <li>
+                    What is Christianity, Mormonism, Buddhism, Atheism, Agnosticism, Judaism, Islam, and Satanism? In what ways do these belief systems (dis)agree?
+                </li>
+                <li>
+                    Do we have free will? If we do, then great; however, if we don't, then what have we? What induces us to form our interests, dislikes, and otherwise self? What is compelling me to write this question, let alone make this website?
+                </li>
+            </ul>
             </section>
 
         <section aria-label="The Physical World">
             <h2>The Physical World</h2>
-            <p class="footnote">Meditations on systemic physics, emergent phenomena, and politics coming soon.</p>
+            <ul class="interests-list">
+                <li>
+                    What is a black hole? How do they (if at all) affect space and time? Where do they come from? Do they ever go away? What would happen if two black holes came in close enough proximity to one another?
+                </li>
+                <li>
+                    What is a Republican? What is a Democrat? What is a liberal? What is a communist?
+                </li>
+                <li>
+                    What is a magnet? What is the study of electrodynamics? How are magnets made? Can you force one magnet to float by placing it on top of another magnet at opposing poles? If so, how much weight can it suspend in relation to the size of said magnet?
+                </li>
+            </ul>
             </section>
     </main>
 
     <nav class="main-nav" aria-label="Breadcrumb Navigation">
         <a href="index.html">← Back to home</a>
     </nav>
+
+<footer class="site-footer">
+        <hr class="footer-divider">
+        <p id="last-updated" class="footnote">Last updated: October 2026</p>
+    </footer>
+
+<script>
+        var lastModifiedDate = new Date(document.lastModified);
+        var options = { year: 'numeric', month: 'long', day: 'numeric' };
+        var formattedDate = lastModifiedDate.toLocaleDateString('en-US', options);
+        document.getElementById("last-updated").textContent = "Last updated: " + formattedDate;
+    </script>
 
 </body>
 </html>

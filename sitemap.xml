@@ -3,27 +3,27 @@
 
     <url>
         <loc>https://pycruz.com/</loc>
-        <lastmod>2026-08-28</lastmod>
+        <lastmod>2026-10-05</lastmod>
     </url>
 
     <url>
         <loc>https://pycruz.com/about.html</loc>
-        <lastmod>2026-08-28</lastmod>
+        <lastmod>2026-10-05</lastmod>
     </url>
 
     <url>
         <loc>https://pycruz.com/publications.html</loc>
-        <lastmod>2026-08-28</lastmod>
+        <lastmod>2026-10-05</lastmod>
     </url>
 
     <url>
         <loc>https://pycruz.com/books.html</loc>
-        <lastmod>2026-07-10</lastmod>
+        <lastmod>2026-10-05</lastmod>
     </url>
 
     <url>
         <loc>https://pycruz.com/religion.html</loc>
-        <lastmod>2026-07-10</lastmod>
+        <lastmod>2026-10-05</lastmod>
     </url>
 
     <url>
@@ -34,5 +34,15 @@
     <url>
         <loc>https://pycruz.com/The_Basel_Problem.pdf</loc>
         <lastmod>2026-08-28</lastmod>
+    </url>
+
+    <url>
+        <loc>https://pycruz.com/words.html</loc>
+        <lastmod>2026-10-05</lastmod>
+    </url>
+
+    <url>
+        <loc>https://pycruz.com/random_thoughts.html</loc>
+        <lastmod>2026-10-05</lastmod>
     </url>
 </urlset>

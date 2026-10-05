@@ -16,7 +16,7 @@
     <meta property="og:description" content="An objective academic analysis of Mormonism, its theological frameworks, and its structural placement within Christianity.">
     <meta property="og:url" content="https://pycruz.com/mormonism.html">
     <meta property="og:type" content="website">
-    <meta property="og:image" content="https://www.pycruz.com/favicon.png">
+    <meta property="og:image" content="https://pycruz.com/favicon.png">
 
     <link rel="icon" type="image/svg+xml" href="images/favicon.svg">
     <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
@@ -49,8 +49,21 @@
     </main>
 
     <nav class="main-nav" aria-label="Breadcrumb Navigation">
-        <a href="religion.html">← Back to religion</a>
+        <p><a href="index.html">←← Back to home</a></p>
+        <p><a href="religion.html">← Back to religion</a></p>
     </nav>
+
+<footer class="site-footer">
+        <hr class="footer-divider">
+        <p id="last-updated" class="footnote">Last updated: October 2026</p>
+    </footer>
+
+<script>
+        var lastModifiedDate = new Date(document.lastModified);
+        var options = { year: 'numeric', month: 'long', day: 'numeric' };
+        var formattedDate = lastModifiedDate.toLocaleDateString('en-US', options);
+        document.getElementById("last-updated").textContent = "Last updated: " + formattedDate;
+    </script>
 
 </body>
 </html>
